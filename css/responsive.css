@@ -36,6 +36,40 @@
       float: left;
       margin-right: 1rem;
     } 
+}
 
-   
+@media screen and (min-width:992px) {
+    /* enlarge title size */
+    .recipe-name{
+        font-size: 3rem;
+    }
+    /* flex recipe-card */
+    .recipe-card {
+        display: flex;
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    /* fix video size */
+    .recipe-video{
+        width: 85%;
+        height: 500px;
+    }
+    /* add social-networks names to social-networks buttons */
+    .social-networks .label {
+        display: inline;
+    }
+    /* style footer for desktop view */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        
+        address{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            line-height: normal;
+        }
+    }
 }
