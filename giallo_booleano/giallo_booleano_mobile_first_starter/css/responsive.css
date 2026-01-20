@@ -1,0 +1,41 @@
+/* Soluzione qui */
+/* tablet version */
+/* move #topbar */
+@media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: flex-start;
+    }
+    /* add padding to the page */
+    main {
+        padding: 3rem;
+    }
+    /* show recipe-origin */
+    .recipe-origin {
+        display: inline;
+    }
+    /* enlarge title */
+    .recipe-name{
+        font-size: 2rem;
+    }
+    /* display recipe-info as a grid */
+    .quick-notes ul{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }  
+    /* enlarge social's buttons */
+    .social-networks button{
+        flex-grow: 1;
+    }
+    /* show ad banner */
+    .ads{
+        display: block;
+    }
+    /* show text on img side */
+   .presentation img{
+      margin: 0;
+      float: left;
+      margin-right: 1rem;
+    } 
+
+   
+}
